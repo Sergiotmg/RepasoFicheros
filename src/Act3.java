@@ -7,11 +7,11 @@ public class Act3 {
         FileOutputStream fileout=new FileOutputStream(new File("config.dat"));
         DataOutputStream dataOS=new DataOutputStream(fileout);
         String linea;
-        dataOS.writeUTF("Idioma: spanish\n");
-        dataOS.writeUTF("Resolución: 1920x1080 \n");
+        dataOS.writeUTF("Idioma: spanish\r\n");
+        dataOS.writeUTF("Resolución: 1920x1080 \r\n");
 
-        dataOS.writeUTF("Pantalla completa:\n");
-        dataOS.writeUTF("Interfaz: principiante/avanzada\n");
+        dataOS.writeUTF("Pantalla completa:\r\n");
+        dataOS.writeUTF("Interfaz: principiante/avanzada\r\n");
 
 
     }
